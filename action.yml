@@ -12,8 +12,9 @@ runs:
   steps:
     - name: Bundle install
       run: |
-        bundle config path vendor/bundle
         gem install bundler
+        gem update bundler
+        bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
       shell: bash
     - name: Exec jekyll algolia
