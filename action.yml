@@ -15,7 +15,7 @@ inputs:
   cache-version:
     description: 'The version of the cache, change this from the default (1) to start over with a fresh cache.'
     required: false
-    default: 1
+    default: 2
   jekyll_src:  
     description: 'The Jekyll website source directory'
     required: false
