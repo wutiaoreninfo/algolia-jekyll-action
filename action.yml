@@ -11,11 +11,11 @@ inputs:
   ruby-version:
     description: 'Version of Ruby to use on build. Default is 2.6.'
     required: false
-    default: '2.7'
+    default: '3.0'
   cache-version:
     description: 'The version of the cache, change this from the default (1) to start over with a fresh cache.'
     required: false
-    default: 2
+    default: 1
   jekyll_src:  
     description: 'The Jekyll website source directory'
     required: false
