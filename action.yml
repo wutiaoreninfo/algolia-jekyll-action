@@ -41,6 +41,7 @@ runs:
         echo "::group::Jekyll folder"
         echo "Building Jekyll from: $PWD"
         echo "::endgroup::"
+        bundle install
         # Updating Algolia Index
         echo "::group::Updating Algolia Index"
         bundle exec jekyll algolia
